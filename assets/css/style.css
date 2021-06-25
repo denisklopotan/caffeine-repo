@@ -10,6 +10,12 @@ body {
     font-family: Josefin Sans, Times New Roman, serif;
 }
 
+header {
+    padding-top: 3%;
+    padding-left: 3%;
+    font-size: 180%;
+}
+
 h1 {
     font-family: Limelight, Times New Roman, serif;
     text-transform: uppercase;
