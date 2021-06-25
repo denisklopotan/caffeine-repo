@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lancelot&family=Limelight&display=swap');
 
 * {
     margin: 0;
@@ -20,7 +20,18 @@ h1 {
     color: #492711;
 }
 
-p {
+h2 {
+    font-family: Limelight, Times New Roman, serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-size: 200%;
+    color: burlywood;
+}
+
+header p {
+    color: #38291c;
     font-size: 200%;
     font-weight: 300;
     padding-top: 3%;
@@ -28,7 +39,29 @@ p {
     width: min(600px, 68%)
 }
 
+p {
+    color: burlywood;
+    font-size: 150%;
+    font-weight: 300;
+    padding-top: 3%;
+    padding-left: 3%;
+    width: 95%;
+}
+
 #hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
+}
+
+#background {
+    width: 100%;
+    background: #492711;/* url('../images/hero-image2.jpg') no-repeat center center; */
+    background-size: contain;
+    padding-bottom: 3%;
+}
+
+hr {
+    height: 5px;
+    background-color: white;
+}
