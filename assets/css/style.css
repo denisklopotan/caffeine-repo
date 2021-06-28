@@ -10,22 +10,21 @@ body {
     font-family: Josefin Sans, Times New Roman, serif;
 }
 
-h1 {
+h1, h2 {
     font-family: Limelight, Times New Roman, serif;
     text-transform: uppercase;
-    letter-spacing: 5px;
     padding-top: 3%;
+}
+
+h1 {
+    letter-spacing: 5px;
     padding-left: 3%;
     font-size: 400%;
     color: #492711;
 }
 
 h2 {
-    font-family: Limelight, Times New Roman, serif;
-    text-transform: uppercase;
     letter-spacing: 3px;
-    padding-top: 3%;
-    padding-left: 3%;
     font-size: 200%;
     color: burlywood;
 }
@@ -33,7 +32,6 @@ h2 {
 header p {
     color: #38291c;
     font-size: 200%;
-    font-weight: 300;
     padding-top: 3%;
     padding-left: 3%;
     width: min(600px, 68%)
@@ -42,23 +40,21 @@ header p {
 section p {
     color: burlywood;
     font-size: 150%;
-    font-weight: 300;
     padding-top: 3%;
-    padding-left: 3%;
     width: 95%;
 }
 
 footer p {
-    color: #492711;
+    color: #38291c;
     font-size: 150%;
+    font-style: italic;
     padding-top: 3%;
     text-align: center;
 }
 
-#header-image {
+header {
     background: url('../images/header.jpg') no-repeat center center;
     height: 600px;
-    width: 100%;
 }
 
 hr {
@@ -66,23 +62,16 @@ hr {
     background-color: burlywood;
 }
 
-#section-background {
+section {
     background-color: #38291c;
-    background-size: contain;
     padding-bottom: 3%;
-    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
-/*
-#footer-image {
-    background: url('../images/footer4.jpg') no-repeat center center;
-    background-size: cover;
-    height: 200px;
-}
-*/
 
 footer {
-    background-color: #c99752;
-    background-size: contain;
-    padding-bottom: 3%;
+    background: url('../images/footer.jpg') no-repeat center center;
+    background-size: cover;
     height: 150px;
 }
+
