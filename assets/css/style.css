@@ -8,22 +8,43 @@
 
 body {
     font-family: Josefin Sans, Times New Roman, serif;
+    background-color: #38291c;
 }
 
-h1, h2 {
-    font-family: Limelight, Times New Roman, serif;
-    text-transform: uppercase;
-    padding-top: 3%;
+header {
+    background: url('../images/header.jpg') no-repeat center center;
+    background-color: burlywood;
+    background-size: cover;
+    padding: 3%;
+    /* height: 600px; */
 }
+
+section {
+    background-color: #38291c;
+    padding: 3%;
+}
+
+footer {
+    background: url('../images/footer.jpg') no-repeat center center;
+    background-color: burlywood;
+    background-size: cover;
+    padding: 3%;
+}
+
+/* font-family, text transform properties are repeated instead grouped as (h1, h2) to keep less element entries */
 
 h1 {
+    font-family: Limelight, Times New Roman, serif;
+    text-transform: uppercase;
     letter-spacing: 5px;
-    padding-left: 3%;
     font-size: 400%;
     color: #492711;
+    padding-bottom: 3%;
 }
 
 h2 {
+    font-family: Limelight, Times New Roman, serif;
+    text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 200%;
     color: burlywood;
@@ -32,29 +53,41 @@ h2 {
 header p {
     color: #38291c;
     font-size: 200%;
-    padding-top: 3%;
-    padding-left: 3%;
-    width: min(600px, 68%)
+    width: min(650px, 70%)
 }
 
 section p {
     color: burlywood;
     font-size: 150%;
     padding-top: 3%;
-    width: 95%;
 }
 
 footer p {
     color: #38291c;
     font-size: 150%;
     font-style: italic;
+    text-align: center;
+}
+
+#menu {
     padding-top: 3%;
     text-align: center;
 }
 
-header {
-    background: url('../images/header.jpg') no-repeat center center;
-    height: 600px;
+a {
+    font-family: Limelight, Times New Roman, serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: burlywood;
+    letter-spacing: 3px;
+    font-size: 150%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+a:hover {
+    background-color: burlywood;
+    color: #38291c;
 }
 
 hr {
@@ -62,19 +95,55 @@ hr {
     background-color: burlywood;
 }
 
-section {
-    background-color: #38291c;
-    padding-bottom: 3%;
-    padding-left: 3%;
-    padding-right: 3%;
-}
-
-footer {
-    background: url('../images/footer.jpg') no-repeat center center;
-    background-size: cover;
-    height: 150px;
-}
-
 img {
     margin: 20px;
+}
+
+@media screen and (max-width: 900px)  {
+    #menu {
+        text-align: ;
     }
+}
+
+
+
+
+
+
+
+.tea {
+    
+    
+}
+
+.tea-img {
+    float: left;
+    width: auto;
+}
+
+.coffee {
+    float: left;
+}
+
+.cocoa {
+    float: left;
+}
+
+
+
+
+
+
+
+
+#mate {
+    text-align: right;
+}
+
+#guarana {
+    text-align: left;
+}
+
+#matcha {
+    text-align: right;
+}
