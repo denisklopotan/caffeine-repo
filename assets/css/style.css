@@ -24,6 +24,10 @@ section {
     padding: 3%;
 }
 
+#matcha {
+
+}
+
 footer {
     background: url('../images/footer.jpg') no-repeat center center;
     background-color: burlywood;
@@ -100,3 +104,8 @@ hr {
       width: 100%;
     }
 }
+
+.active {
+    background-color: burlywood;
+    color: #38291c;
+ }
