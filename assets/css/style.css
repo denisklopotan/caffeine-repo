@@ -78,7 +78,7 @@ footer p {
     text-align: center;
 }
 
-a {
+div a {
     font-family: Limelight, Times New Roman, serif;
     text-transform: uppercase;
     text-decoration: none;
@@ -108,4 +108,9 @@ hr {
 .active {
     background-color: burlywood;
     color: #38291c;
+ }
+
+ h2 a {
+    text-decoration: none;
+    color: inherit;
  }
