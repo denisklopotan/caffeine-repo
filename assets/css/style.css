@@ -53,7 +53,7 @@ h2 {
 header p {
     color: #38291c;
     font-size: 200%;
-    width: min(650px, 70%)
+    width: min(650px)
 }
 
 section p {
@@ -95,55 +95,8 @@ hr {
     background-color: burlywood;
 }
 
-img {
-    margin: 20px;
-}
-
-@media screen and (max-width: 900px)  {
-    #menu {
-        text-align: ;
+@media screen and (max-width: 800px) {
+    header p {
+      width: 100%;
     }
-}
-
-
-
-
-
-
-
-.tea {
-    
-    
-}
-
-.tea-img {
-    float: left;
-    width: auto;
-}
-
-.coffee {
-    float: left;
-}
-
-.cocoa {
-    float: left;
-}
-
-
-
-
-
-
-
-
-#mate {
-    text-align: right;
-}
-
-#guarana {
-    text-align: left;
-}
-
-#matcha {
-    text-align: right;
 }
