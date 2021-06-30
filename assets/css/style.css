@@ -16,16 +16,11 @@ header {
     background-color: burlywood;
     background-size: cover;
     padding: 3%;
-    /* height: 600px; */
 }
 
 section {
     background-color: #38291c;
     padding: 3%;
-}
-
-#matcha {
-
 }
 
 footer {
@@ -42,7 +37,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 400%;
-    color: #492711;
+    color: #420;
     padding-bottom: 3%;
 }
 
@@ -53,6 +48,11 @@ h2 {
     font-size: 200%;
     color: burlywood;
 }
+
+h2 a {
+    text-decoration: none;
+    color: inherit;
+ }
 
 header p {
     color: #38291c;
@@ -73,9 +73,7 @@ footer p {
     text-align: center;
 }
 
-#menu {
-    text-align: center;
-}
+/* Menu styling */
 
 div a {
     font-family: Limelight, Times New Roman, serif;
@@ -83,10 +81,19 @@ div a {
     text-decoration: none;
     color: burlywood;
     letter-spacing: 3px;
-    font-size: 150%;
+    font-size: 160%;
     padding-left: 2%;
     padding-right: 2%;
 }
+
+#menu {
+    text-align: center;
+}
+
+.active {
+    background-color: burlywood;
+    color: #38291c;
+ }
 
 a:hover {
     background-color: burlywood;
@@ -104,17 +111,29 @@ hr {
     }
 }
 
-.active {
-    background-color: burlywood;
-    color: #38291c;
+/* Section styling for individual HTML pages */
+
+.tea-section {
+    background-color: #940;
  }
 
- h2 a {
-    text-decoration: none;
-    color: inherit;
+.coffee-section {
+    background-color: #210;
+  /*background-color: #420;*/
  }
 
- .matcha-section {
-    background-color:#225a30;
-    padding: 3%;
+.cacao-section {
+    background-color: #520;
+}
+
+.mate-section {
+    background-color: #540;
+ }
+
+.guarana-section {
+    background-color: #720;
+ }
+
+.matcha-section {
+    background-color:#240;
  }
