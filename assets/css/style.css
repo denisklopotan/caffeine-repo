@@ -74,7 +74,6 @@ footer p {
 }
 
 #menu {
-    padding-top: 3%;
     text-align: center;
 }
 
@@ -113,4 +112,9 @@ hr {
  h2 a {
     text-decoration: none;
     color: inherit;
+ }
+
+ .matcha-section {
+    background-color:#225a30;
+    padding: 3%;
  }
