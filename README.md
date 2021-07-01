@@ -8,7 +8,7 @@ Overall vibe and feel of site is retro, adventurous, inviting to explore, embark
 
 ## Wireframes
 
-Wireframes proved quite useful. Some features where implemented like main mage structure, intention of header, footer, etc.. Navbars where not implemented as imagined + few other smaller omits. Which is very understandable since its my first project. Im even surprised that i did not changed it even more! It was very challenging to tackle with so many data and learning in short time + demanding private responsibilities. Long days and sleepless nights, and i am very proud. exhausted and very happy actually! :D I enjoyed every single second of coding, all mistakes and sucesses, i just love it! It captivated me :) [Wireframes](assets/images/wireframes-md.jpg)
+Wireframes proved quite useful. Some features where implemented like main mage structure, intention of header, footer, etc.. Navbars where not implemented as imagined + few other smaller omits. Which is very understandable since its my first project. Im even surprised that i did not changed it even more! It was very challenging to tackle with so many data and learning in short time + demanding private responsibilities. Long days and sleepless nights, and i am very proud. exhausted and very happy actually! :D I enjoyed every single second of coding, all mistakes and sucesses, i just love it! It captivated me :) ![Wireframes](assets/images/wireframes-md.jpg)
 
 ## Features
 
@@ -17,7 +17,7 @@ Wireframes proved quite useful. Some features where implemented like main mage s
 * Header with unique stories, original writing, it brings character and uniquness to page and its mamde to capture readers imagination: ![Header](assets/images/header-md.jpg)
 * Navigation bar with active buttons for simple navigation between pages, good contrast, easy on eye: ![Menu](assets/images/navbar-md.jpg)
 * Main page with visible header and section with brief overview and embedded link to wikipedia in header h2 if readers want to know more!: ![Main](assets/images/main-md.jpg)
-* Mobile phone preview, responsive: ![Mobile](assets/images/mobile-md.jpg)
+* Mobile phone preview, responsive:![Mobile](assets/images/mobile-md.jpg)
 * Subpage with picture/gallery and different section color: ![Subpage](assets/images/subpage-md.jpg)
 * footer with contact and quotation in same style as header, purpose to provideshort inspiration: ![Footer](assets/images/footer-md.jpg)
 
