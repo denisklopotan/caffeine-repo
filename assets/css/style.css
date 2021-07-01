@@ -30,8 +30,6 @@ footer {
     padding: 3%;
 }
 
-/* font-family, text transform properties are repeated instead grouped as (h1, h2) to keep less element entries */
-
 h1 {
     font-family: Limelight, Times New Roman, serif;
     text-transform: uppercase;
@@ -88,6 +86,7 @@ div a {
 
 #menu {
     text-align: center;
+    padding: 2%;
 }
 
 .active {
@@ -119,7 +118,6 @@ hr {
 
 .coffee-section {
     background-color: #210;
-  /*background-color: #420;*/
  }
 
 .cacao-section {
