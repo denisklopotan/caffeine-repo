@@ -17,9 +17,11 @@ Wireframes proved quite useful. Some features where implemented like main mage s
 * Header with unique stories, original writing, it brings character and uniquness to page and its mamde to capture readers imagination: ![Header](assets/images/header-md.jpg)
 * Navigation bar with active buttons for simple navigation between pages, good contrast, easy on eye: ![Menu](assets/images/navbar-md.jpg)
 * Main page with visible header and section with brief overview and embedded link to wikipedia in header h2 if readers want to know more!: ![Main](assets/images/main-md.jpg)
-* Mobile phone preview, responsive:![Mobile](assets/images/mobile-md.jpg)
-* Subpage with picture/gallery and different section color: ![Subpage](assets/images/subpage-md.jpg)
+* Subpage with picture/gallery and different section color:
+* ![Subpage](assets/images/subpage-md.jpg)
 * footer with contact and quotation in same style as header, purpose to provideshort inspiration: ![Footer](assets/images/footer-md.jpg)
+* Mobile phone preview, responsive:
+* ![Mobile](assets/images/mobile-md.jpg)
 
 ### Features Left to Implement
 
